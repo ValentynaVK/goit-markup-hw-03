@@ -1,8 +1,18 @@
 .header {
+  padding: 24px 0;
 }
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
 .main-nav {
+  margin-left: auto;
+  margin-right: 340px;
 }
 .main-nav-list {
+  display: flex;
+  gap: 40px;
 }
 .main-nav-item {
 }
@@ -19,6 +29,8 @@
 .contacts {
 }
 .contacts-list {
+  display: flex;
+  gap: 40px;
 }
 .contacts-item {
   color: #434455;
